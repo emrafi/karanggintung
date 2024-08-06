@@ -35,7 +35,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="#home">Beranda</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#cctv">CCTV</a>
@@ -44,13 +44,13 @@
                         <a class="nav-link" href="#blog">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#about">Tentang</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#gallery">Gallery</a>
+                        <a class="nav-link" href="#gallery">Galeri</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#contact">Kontak</a>
                     </li>
                     <li class="nav-item ml-0 ml-lg-4">
                         <a class="nav-link btn btn-primary" href="{{ url('login') }}">Login</a>
@@ -95,7 +95,8 @@
                 </div>
                 <div class="col-md-6">
                     <h1>Pantau Desa</h1>
-                    <p>Memastikan pengawasan di segala sudut desa.</p>
+                    <p>Memastikan pengawasan di segala sudut desa dan memberikan kenyamanan untuk seluruh masyarakat.
+                    </p>
                     <a class="btn btn-primary" href="{{ url('pantau') }}">Cek CCTV</a>
                 </div>
             </div>
@@ -105,8 +106,8 @@
 
     <section class="section" id="blog">
         <div class="container mb-3">
-            <h6 class="xs-font mb-0">Culpa perferendis excepturi.</h6>
-            <h3 class="section-title mb-5">Our Blog</h3>
+            <h6 class="xs-font mb-0">Aktual dan Terpercaya.</h6>
+            <h3 class="section-title mb-5">Blog Kami</h3>
 
             <div class="blog-wrapper">
                 <div class="img-wrapper">
@@ -142,8 +143,8 @@
         <div class="container">
             <div class="row align-items-center mr-auto">
                 <div class="col-md-4">
-                    <h6 class="xs-font mb-0">nobis dolorem sapiente evenie.</h6>
-                    <h3 class="section-title">About Us</h3>
+                    <h6 class="xs-font mb-0">Karanggintung Srawung.</h6>
+                    <h3 class="section-title">Tentang Kami</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum sunt, unde aperiam aliquid quia
                         repudiandae, ex harum quis amet delectus maxime, tempora possimus aut laboriosam magni corrupti
                         labore. Doloremque, sit?</p>
@@ -236,8 +237,8 @@
 
     <section class="section" id="gallery">
         <div class="container">
-            <h6 class="xs-font mb-0">Culpa perferendis excepturi.</h6>
-            <h3 class="section-title pb-4">Our Products</h3>
+            <h6 class="xs-font mb-0">Megutamakan kualitas.</h6>
+            <h3 class="section-title pb-4">Produk Kami</h3>
         </div>
 
         <div id="owl-portfolio" class="owl-carousel owl-theme mt-4">
@@ -380,12 +381,11 @@
     <section id="contact" class="section pb-0">
 
         <div class="container">
-            <h6 class="xs-font mb-0">Culpa perferendis excepturi.</h6>
-            <h3 class="section-title mb-5">Contact Us</h3>
+            <h6 class="xs-font mb-0">Mengedepankan pelayanan.</h6>
+            <h3 class="section-title mb-5">Kontak Kami</h3>
 
             <div class="row align-items-center justify-content-between">
-                <div class="col-md-8 col-lg-7">
-
+                <div class="col-md-6 col-lg-5">
                     <form class="contact-form">
                         <div class="form-row">
                             <div class="col form-group">
@@ -404,15 +404,17 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-md-4 d-none d-md-block order-1">
+                <div class="col-md-6 d-none d-md-block order-1">
                     <ul class="list">
                         <li class="list-head">
-                            <h6>CONTACT INFO</h6>
+                            <h6>INFORMASI</h6>
                         </li>
                         <li class="list-body">
-                            <p class="py-2">Contact us and we'll get back to you within 24 hours.</p>
-                            <p class="py-2"><i class="ti-location-pin"></i> 12345 Fake ST NoWhere AB Country</p>
-                            <p class="py-2"><i class="ti-email"></i> info@website.com</p>
+                            <p class="py-2">Hubungi kami, balasan akan segera dikirimkan maksimal dalam 1 x 24 jam.
+                            </p>
+                            <p class="py-2"><i class="ti-location-pin"></i> Karanggintung, Sumbang, Banyumas, Jawa
+                                Tengah</p>
+                            <p class="py-2"><i class="ti-email"></i> karanggintungmakmur@gmail.com</p>
                             <p class="py-2"><i class="ti-microphone"></i> (123) 456-7890</p>
 
                         </li>
@@ -426,8 +428,7 @@
                         <p class="mb-0">Copyright
                             <script>
                                 document.write(new Date().getFullYear())
-                            </script> &copy; <a target="_blank"
-                                href="http://www.devcrud.com">DevCRUD</a>
+                            </script> &copy; <a target="_blank" href="">emrv</a>
                         </p>
                     </div>
                     <div class="col-md-6 text-center text-md-right">

@@ -38,7 +38,7 @@
                         <a class="nav-link" href="#home">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#cctv">CCTV</a>
+                        <a class="nav-link" href="{{ url('pantau') }}">CCTV</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#blog">Blog</a>
@@ -87,7 +87,7 @@
         </div>
     </header>
 
-    <section class="section" id="cctv">
+    {{-- <section class="section" id="cctv">
         <div class="container mt-5">
             <div class="row">
                 <div class="col-md-6">
@@ -101,7 +101,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
 
     <section class="section" id="blog">
@@ -195,46 +195,6 @@
         </div>
     </section>
 
-    {{-- <section class="section">
-        <div class="container">
-            <h6 class="xs-font mb-0">Blanditiis unde illum earum</h6>
-            <h3 class="section-title mb-4">Expertises</h3>
-
-            <div class="row text-center">
-                <div class="col-lg-4">
-                    <a href="javascript:void(0)" class="card border-0 text-dark">
-                        <img class="card-img-top" src="frontend/imgs/img-5.jpg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page">
-                        <span class="card-body">
-                            <h4 class="title mt-4">Codding &amp; Designing</h4>
-                            <p class="xs-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-lg-4">
-                    <a href="javascript:void(0)" class="card border-0 text-dark">
-                        <img class="card-img-top" src="frontend/imgs/img-6.jpg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page">
-                        <span class="card-body">
-                            <h4 class="title mt-4">Graphic Design</h4>
-                            <p class="xs-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-lg-4">
-                    <a href="javascript:void(0)" class="card border-0 text-dark">
-                        <img class="card-img-top" src="frontend/imgs/img-7.jpg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page">
-                        <span class="card-body">
-                            <h4 class="title mt-4">Development</h4>
-                            <p class="xs-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-
     <section class="section" id="gallery">
         <div class="container">
             <h6 class="xs-font mb-0">Megutamakan kualitas.</h6>
@@ -281,105 +241,7 @@
         </div>
     </section>
 
-
-    {{-- <section class="section" id="testmonial">
-        <div class="container">
-            <h6 class="xs-font mb-0">Culpa perferendis excepturi.</h6>
-            <h3 class="section-title">Testmonials</h3>
-
-            <div id="owl-testmonial" class="owl-carousel owl-theme mt-4">
-                <div class="item">
-                    <div class="textmonial-item">
-                        <img src="frontend/imgs/avatar1.jpg" class="avatar"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page">
-                        <div class="des">
-                            <h5 class="ti-quote-left font-weight-bold"></h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ea facere voluptatum
-                                corrupti doloremque odit sequi labore rerum maiores libero.adipisicing elit. Vitae quasi
-                                voluptatem sed quaerat dolorum architecto reiciendis magni laboriosam, illum, nobis,
-                                quae dolor, ducimus libero! Sapiente deleniti sit dolor, ex possimus.</p>
-                            <h5 class="ti-quote-left text-right font-weight-bold"></h5>
-
-                            <div class="line"></div>
-                            <h6 class="name">Emma Re</h6>
-                            <h6 class="xs-font">Full stack developer</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="textmonial-item">
-                        <img src="frontend/imgs/avatar2.jpg" class="avatar"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page">
-                        <div class="des">
-                            <h5 class="ti-quote-left font-weight-bold"></h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ea facere voluptatum
-                                corrupti doloremque odit sequi labore rerum maiores libero.adipisicing elit. Vitae quasi
-                                voluptatem sed quaerat dolorum architecto reiciendis magni laboriosam, illum, nobis,
-                                quae dolor, ducimus libero! Sapiente deleniti sit dolor, ex possimus.</p>
-                            <h5 class="ti-quote-left text-right font-weight-bold"></h5>
-
-                            <div class="line"></div>
-                            <h6 class="name">John Doe</h6>
-                            <h6 class="xs-font">Graphic Designer</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="textmonial-item">
-                        <img src="frontend/imgs/avatar3.jpg" class="avatar"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, ollie Landing page">
-                        <div class="des">
-                            <h5 class="ti-quote-left font-weight-bold"></h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ea facere voluptatum
-                                corrupti doloremque odit sequi labore rerum maiores libero.adipisicing elit. Vitae quasi
-                                voluptatem sed quaerat dolorum architecto reiciendis magni laboriosam, illum, nobis,
-                                quae dolor, ducimus libero! Sapiente deleniti sit dolor, ex possimus.</p>
-                            <h5 class="ti-quote-left text-right font-weight-bold"></h5>
-
-                            <div class="line"></div>
-                            <h6 class="name">Emily Roe</h6>
-                            <h6 class="xs-font">Freelancer</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-
-    {{-- <section class="section bg-overlay">
-
-        <div class="container">
-            <div class="infos mb-4 mb-md-2">
-                <div class="title">
-                    <h6 class="subtitle font-weight-normal">Are locking for</h6>
-                    <h5>Lorem inpsum</h5>
-                    <p class="font-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-                <div class="socials">
-                    <div class="row justify-content-between">
-                        <div class="col">
-                            <a class="d-block subtitle"><i class="ti-microphone"></i> (123) 456-7890</a>
-                            <a class="d-block subtitle"><i class="ti-email"></i> info@website.com</a>
-                        </div>
-                        <div class="col">
-                            <h6 class="subtitle font-weight-normal mb-1">Social Media</h6>
-                            <div class="social-links">
-                                <a href="javascript:void(0)" class="link pr-1"><i class="ti-facebook"></i></a>
-                                <a href="javascript:void(0)" class="link pr-1"><i class="ti-twitter-alt"></i></a>
-                                <a href="javascript:void(0)" class="link pr-1"><i class="ti-google"></i></a>
-                                <a href="javascript:void(0)" class="link pr-1"><i class="ti-pinterest-alt"></i></a>
-                                <a href="javascript:void(0)" class="link pr-1"><i class="ti-instagram"></i></a>
-                                <a href="javascript:void(0)" class="link pr-1"><i class="ti-rss"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-
     <section id="contact" class="section pb-0">
-
         <div class="container">
             <h6 class="xs-font mb-0">Mengedepankan pelayanan.</h6>
             <h3 class="section-title mb-5">Kontak Kami</h3>
@@ -458,7 +320,7 @@
 
 
     <!-- Ollie js -->
-    <script src="{{ asset('frontend/js/Ollie.js') }}"></script>
+    <script src="{{ asset('frontend/js/ollie.js') }}"></script>
 
 </body>
 

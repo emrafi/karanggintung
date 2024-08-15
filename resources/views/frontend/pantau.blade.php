@@ -22,13 +22,25 @@
     </header>
 
     <main>
-        <section class="text-center container">
-            <div class="row py-lg-3">
-                <div class="col-lg-6 col-md-8 mx-auto">
-                    <h4 class="fw-light">Pemantauan CCTV Desa Karanggintung</h4>
-                    {{-- <p class="lead text-muted">Something short and leading about the collection below—its contents, the
-                        creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it
-                        entirely.</p> --}}
+        <section class="text-center container mt-3">
+            <div class="col-12">
+                <div class="p-5 mb-4 bg-danger bg-gradient text-white rounded-3">
+                    <div class="container-fluid py-1">
+                        <div class="row">
+                            <div class="col-sm-12 d-block d-md-none">
+                                <img src="frontend/imgs/header_image.svg" alt="" class="w-100 img-fluid">
+                            </div>
+                            <div class="col-12 col-md-8 mt-3 text-center align-content-center">
+                                <h1 class="display-5 fw-bold">Live CCTV Desa Karanggintung</h1>
+                                <p class="fs-4">
+                                    Web ini berfungsi untuk menampilkan live streaming CCTV Desa Karanggintung.
+                                </p>
+                            </div>
+                            <div class="col-md-4 d-none d-md-block">
+                                <img src="frontend/imgs/header_image.svg" alt="" class="w-100 img-fluid">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -38,93 +50,82 @@
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     <div class="col">
                         <div class="card shadow-sm">
-                            {{-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%"
-                                    fill="#eceeef" dy=".3em"></text>
-                            </svg> --}}
-                            <video id="video" autoplay="true" controls="controls"
-                                type='application/x-mpegURL'></video>
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Camera 1</h5>
-                                <p class="card-text">Perempatan jalan Sulawesi</p>
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kamera - SD N 2</h5>
+                                    <img src="http://karanggintung.com:7700/video_feed?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.6:554/Streaming/Channels/102/"
+                                        alt="" class="img fluid w-100 rounded">
+                                    {{-- <div class="d-grid gap-2 mt-3"><a href="" class="btn btn-danger">Lihat
+                                            CCTV</a></div> --}}
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%"
-                                    fill="#eceeef" dy=".3em"></text>
-                            </svg>
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Camera 2</h5>
-                                <p class="card-text">Perempatan jalan Sulawesi</p>
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kamera - Pertigaan Adhyaksa</h5>
+                                    <img src="http://karanggintung.com:7700/video_feed?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.3:554/Streaming/Channels/102/"
+                                        alt="" class="img fluid w-100 rounded">
+                                    {{-- <div class="d-grid gap-2 mt-3"><a href="" class="btn btn-danger">Lihat
+                                            CCTV</a></div> --}}
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%"
-                                    fill="#eceeef" dy=".3em"></text>
-                            </svg>
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Camera 3</h5>
-                                <p class="card-text">Perempatan jalan Sulawesi</p>
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kamera - Dukuh Kenyuk</h5>
+                                    <img src="http://karanggintung.com:7700/video_feed?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.2:554/Streaming/Channels/102"
+                                        alt="" class="img fluid w-100 rounded">
+                                    {{-- <div class="d-grid gap-2 mt-3"><a href="" class="btn btn-danger">Lihat
+                                                CCTV</a></div> --}}
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%"
-                                    fill="#eceeef" dy=".3em"></text>
-                            </svg>
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Camera 4</h5>
-                                <p class="card-text">Perempatan jalan Sulawesi</p>
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kamera - Tugu Gewok</h5>
+                                    <img src="http://karanggintung.com:7700/video_feed?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.7:554/Streaming/Channels/102"
+                                        alt="" class="img fluid w-100 rounded">
+                                    {{-- <div class="d-grid gap-2 mt-3"><a href=""
+                                                    class="btn btn-danger">Lihat
+                                                    CCTV</a></div> --}}
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%"
-                                    fill="#eceeef" dy=".3em"></text>
-                            </svg>
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Camera 5</h5>
-                                <p class="card-text">Perempatan jalan Sulawesi</p>
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kamera - Pertigaan RT 8 RW 2</h5>
+                                    <img src="http://karanggintung.com:7700/video_feed?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.4:554/Streaming/Channels/102"
+                                        alt="" class="img fluid w-100 rounded">
+                                    {{-- <div class="d-grid gap-2 mt-3"><a href=""
+                                                        class="btn btn-danger">Lihat
+                                                        CCTV</a></div> --}}
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%"
-                                    fill="#eceeef" dy=".3em"></text>
-                            </svg>
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Camera 6</h5>
-                                <p class="card-text">Perempatan jalan Sulawesi</p>
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kamera - Arah Pandak</h5>
+                                    <img src="http://karanggintung.com:7700/video_feed?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.5:554/Streaming/Channels/102"
+                                        alt="" class="img fluid w-100 rounded">
+                                    {{-- <div class="d-grid gap-2 mt-3"><a href=""
+                                                            class="btn btn-danger">Lihat
+                                                            CCTV</a></div> --}}
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -144,24 +145,13 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
 
-    {{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script> --}}
-
-    <script>
-        if (Hls.isSupported()) {
-            var video = document.getElementById('video');
-            var hls = new Hls();
-            // bind them together
-            hls.attachMedia(video);
-            hls.on(Hls.Events.MEDIA_ATTACHED, function() {
-                // console.log("video and hls.js are now bound together !");
-                hls.loadSource("http://192.1xx.x.1xx:8080/playlist.m3u8");
-                hls.on(Hls.Events.MANIFEST_PARSED, function(event, data) {});
-            });
-        }
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
     </script>
 </body>
 

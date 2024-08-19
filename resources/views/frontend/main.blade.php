@@ -318,7 +318,6 @@
     <!-- Owl carousel  -->
     <script src="{{ asset('frontend/vendors/owl-carousel/js/owl.carousel.js') }}"></script>
 
-
     <!-- Ollie js -->
     <script src="{{ asset('frontend/js/ollie.js') }}"></script>
 

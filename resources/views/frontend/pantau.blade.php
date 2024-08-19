@@ -54,7 +54,7 @@
                             <div class="card h-100">
                                 <div class="card-body">
                                     <h5 class="card-title">Kamera - SD N 2</h5>
-                                    <img src="http://karanggintung.com:7700/video_feed?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.6:554/Streaming/Channels/102/"
+                                    <img src="https://cctv.karanggintung.com/video_feed?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.6:554/Streaming/Channels/102/"
                                         alt="" class="img fluid w-100 rounded">
                                     {{-- <div class="d-grid gap-2 mt-3"><a href="" class="btn btn-danger">Lihat
                                             CCTV</a></div> --}}
@@ -67,7 +67,7 @@
                             <div class="card h-100">
                                 <div class="card-body">
                                     <h5 class="card-title">Kamera - Pertigaan Adhyaksa</h5>
-                                    <img src="http://karanggintung.com:7700/video_feed?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.3:554/Streaming/Channels/102/"
+                                    <img src="https://cctv.karanggintung.com/video_feed?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.3:554/Streaming/Channels/102/"
                                         alt="" class="img fluid w-100 rounded">
                                     {{-- <div class="d-grid gap-2 mt-3"><a href="" class="btn btn-danger">Lihat
                                             CCTV</a></div> --}}
@@ -80,7 +80,7 @@
                             <div class="card h-100">
                                 <div class="card-body">
                                     <h5 class="card-title">Kamera - Dukuh Kenyuk</h5>
-                                    <img src="http://karanggintung.com:7700/video_feed?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.2:554/Streaming/Channels/102"
+                                    <img src="https://cctv.karanggintung.com/video_feed?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.2:554/Streaming/Channels/102"
                                         alt="" class="img fluid w-100 rounded">
                                     {{-- <div class="d-grid gap-2 mt-3"><a href="" class="btn btn-danger">Lihat
                                                 CCTV</a></div> --}}
@@ -93,7 +93,7 @@
                             <div class="card h-100">
                                 <div class="card-body">
                                     <h5 class="card-title">Kamera - Tugu Gewok</h5>
-                                    <img src="http://karanggintung.com:7700/video_feed?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.7:554/Streaming/Channels/102"
+                                    <img src="https://cctv.karanggintung.com/video_feed?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.7:554/Streaming/Channels/102"
                                         alt="" class="img fluid w-100 rounded">
                                     {{-- <div class="d-grid gap-2 mt-3"><a href=""
                                                     class="btn btn-danger">Lihat
@@ -107,7 +107,7 @@
                             <div class="card h-100">
                                 <div class="card-body">
                                     <h5 class="card-title">Kamera - Pertigaan RT 8 RW 2</h5>
-                                    <img src="http://karanggintung.com:7700/video_feed?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.4:554/Streaming/Channels/102"
+                                    <img src="https://cctv.karanggintung.com/video_feed?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.4:554/Streaming/Channels/102"
                                         alt="" class="img fluid w-100 rounded">
                                     {{-- <div class="d-grid gap-2 mt-3"><a href=""
                                                         class="btn btn-danger">Lihat
@@ -121,7 +121,7 @@
                             <div class="card h-100">
                                 <div class="card-body">
                                     <h5 class="card-title">Kamera - Arah Pandak</h5>
-                                    <img src="http://karanggintung.com:7700/video_feed?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.5:554/Streaming/Channels/102"
+                                    <img src="https://cctv.karanggintung.com/video_feed?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.5:554/Streaming/Channels/102"
                                         alt="" class="img fluid w-100 rounded">
                                     {{-- <div class="d-grid gap-2 mt-3"><a href=""
                                                             class="btn btn-danger">Lihat

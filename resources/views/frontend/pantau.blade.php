@@ -70,7 +70,7 @@
                 </div>
                 <div class="row d-flex justify-content-center">
                     <div class="col-12">
-                        <div class="card-body p-5">
+                        <div class="card-body p-1 mt-4">
                             <img id="source"
                                 src="https://cctv.karanggintung.com/video_feed_full?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.6:554/Streaming/Channels/102/"
                                 alt="" class="img fluid w-100 rounded embed-responsive-item">
@@ -81,13 +81,22 @@
         </div>
     </main>
 
-    <footer class="text-muted py-5">
+    <footer class="text-muted">
         <div class="container">
-            <p class="float-end mb-1">
-                <a href="#">Back to top</a>
-            </p>
-            <p class="mb-1">Pantauan CCTV ini milik pemerintah desa Karanggintung, penyalahgunaan akan ditindak
-                sesuai hukum yang berlaku.</p>
+            <div class="row text-center p-2">
+                <div class="col-12">
+                    <p class="">Pantauan CCTV ini milik pemerintah desa Karanggintung, penyalahgunaan akan
+                        ditindak
+                        sesuai hukum yang berlaku.</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-12">
+                    <p class="mb-1">
+                        <a href="#">kembali ke atas</a>
+                    </p>
+                </div>
+            </div>
         </div>
     </footer>
 

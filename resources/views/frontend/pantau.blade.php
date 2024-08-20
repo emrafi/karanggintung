@@ -46,94 +46,39 @@
             </div>
         </section>
 
-        <div class="album py-1 bg-light">
-            <div class="container">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <h5 class="card-title">Kamera - SD N 2</h5>
-                                    <img src="https://cctv.karanggintung.com/video_feed?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.6:554/Streaming/Channels/102/"
-                                        alt="" class="img fluid w-100 rounded">
-                                    {{-- <div class="d-grid gap-2 mt-3"><a href="" class="btn btn-danger">Lihat
-                                            CCTV</a></div> --}}
-                                </div>
+        <div class="album py-1">
+            <div class="container-fluid">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-12">
+                        <div class="text-center">
+                            <div class="btn-group flex-wrap" role="group" data-toggle="buttons">
+                                <button type="button" onclick="change1()" class="btn btn-outline-secondary">SD N
+                                    2</button>
+                                <button type="button" onclick="change2()" class="btn btn-outline-secondary">Pertigaan
+                                    Adhyaksa</button>
+                                <button type="button" onclick="change3()" class="btn btn-outline-secondary">Dukuh
+                                    Kenyuk</button>
+                                <button type="button" onclick="change4()" class="btn btn-outline-secondary">Tugu
+                                    Gewok</button>
+                                <button type="button" onclick="change5()"class="btn btn-outline-secondary">Pertigaan
+                                    RT8/2</button>
+                                <button type="button" onclick="change6()"class="btn btn-outline-secondary">Arah
+                                    Pandak</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <h5 class="card-title">Kamera - Pertigaan Adhyaksa</h5>
-                                    <img src="https://cctv.karanggintung.com/video_feed?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.3:554/Streaming/Channels/102/"
-                                        alt="" class="img fluid w-100 rounded">
-                                    {{-- <div class="d-grid gap-2 mt-3"><a href="" class="btn btn-danger">Lihat
-                                            CCTV</a></div> --}}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <h5 class="card-title">Kamera - Dukuh Kenyuk</h5>
-                                    <img src="https://cctv.karanggintung.com/video_feed?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.2:554/Streaming/Channels/102"
-                                        alt="" class="img fluid w-100 rounded">
-                                    {{-- <div class="d-grid gap-2 mt-3"><a href="" class="btn btn-danger">Lihat
-                                                CCTV</a></div> --}}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <h5 class="card-title">Kamera - Tugu Gewok</h5>
-                                    <img src="https://cctv.karanggintung.com/video_feed?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.7:554/Streaming/Channels/102"
-                                        alt="" class="img fluid w-100 rounded">
-                                    {{-- <div class="d-grid gap-2 mt-3"><a href=""
-                                                    class="btn btn-danger">Lihat
-                                                    CCTV</a></div> --}}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <h5 class="card-title">Kamera - Pertigaan RT 8 RW 2</h5>
-                                    <img src="https://cctv.karanggintung.com/video_feed?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.4:554/Streaming/Channels/102"
-                                        alt="" class="img fluid w-100 rounded">
-                                    {{-- <div class="d-grid gap-2 mt-3"><a href=""
-                                                        class="btn btn-danger">Lihat
-                                                        CCTV</a></div> --}}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <h5 class="card-title">Kamera - Arah Pandak</h5>
-                                    <img src="https://cctv.karanggintung.com/video_feed?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.5:554/Streaming/Channels/102"
-                                        alt="" class="img fluid w-100 rounded">
-                                    {{-- <div class="d-grid gap-2 mt-3"><a href=""
-                                                            class="btn btn-danger">Lihat
-                                                            CCTV</a></div> --}}
-                                </div>
-                            </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-12">
+                        <div class="card-body p-5">
+                            <img id="source"
+                                src="https://cctv.karanggintung.com/video_feed_full?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.6:554/Streaming/Channels/102/"
+                                alt="" class="img fluid w-100 rounded embed-responsive-item">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </main>
 
     <footer class="text-muted py-5">
@@ -145,6 +90,81 @@
                 sesuai hukum yang berlaku.</p>
         </div>
     </footer>
+
+    <script>
+        const s = document.getElementById('source');
+
+        function change1() {
+            s.src =
+                "https://cctv.karanggintung.com/video_feed_full?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.6:554/Streaming/Channels/102/";
+        }
+
+        function change2() {
+            s.src =
+                "https://cctv.karanggintung.com/video_feed_full?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.3:554/Streaming/Channels/102/";
+        }
+
+        function change3() {
+            s.src =
+                "https://cctv.karanggintung.com/video_feed_full?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.2:554/Streaming/Channels/102/";
+        }
+
+        function change4() {
+            s.src =
+                "https://cctv.karanggintung.com/video_feed_full?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.7:554/Streaming/Channels/102/";
+        }
+
+        function change5() {
+            s.src =
+                "https://cctv.karanggintung.com/video_feed_full?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.4:554/Streaming/Channels/102/";
+        }
+
+        function change6() {
+            s.src =
+                "https://cctv.karanggintung.com/video_feed_full?ip=192.168.193.104&source=rtsp://admin:1nd1H0m3@192.168.0.5:554/Streaming/Channels/102/";
+        }
+
+        window.onload = function() {
+            let btns = Array.from(document.querySelectorAll('.btn btn-outline-secondary'));
+            let activeButton = null;
+
+            // The button which would be used to add 'active' class to
+            // all the buttons.
+            let allButton = document.querySelector('#All');
+
+            const handleClick = (e) => {
+                e.preventDefault();
+                e.currentTarget.classList.add('active');
+                // Checks that the activeButton is defined (initially it's null).
+                // Also checks that the button that was clicked is not the button which is
+                // already active to avoid removing the active class on double click.
+                if (activeButton != null && activeButton != e.currentTarget) {
+                    activeButton.classList.remove('active');
+                }
+                activeButton = e.currentTarget;
+            }
+            if (btns != null) {
+                btns.forEach(node => {
+                    node.addEventListener('click', handleClick)
+                });
+            } else {
+                console.warn(`#SampleEl Object or Element Does not exists or not yet loaded.`)
+            }
+
+            // Listen to a click event from the "allButton" and when it's clicked,
+            // loop through the buttons array and add 'active' class to all buttons
+            // in it.
+            if (allButton != null) {
+                allButton.addEventListener('click', function() {
+                    btns.forEach(btn => {
+                        btn.classList.add('active');
+                    })
+                });
+            } else {
+                console.warn(`#allButton Object or Element Does not exists or not yet loaded.`)
+            }
+        }
+    </script>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
